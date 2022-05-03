@@ -1,6 +1,6 @@
-import { cloudinaryImage } from '@keystone-next/cloudinary';
-import { relationship, text } from '@keystone-next/fields';
-import { list } from '@keystone-next/keystone/schema';
+import { cloudinaryImage } from '@keystone-6/cloudinary';
+import { relationship, text } from '@keystone-6/fields';
+import { list } from '@keystone-6/keystone/schema';
 import 'dotenv/config';
 import { isSignedIn, permissions } from '../access';
 

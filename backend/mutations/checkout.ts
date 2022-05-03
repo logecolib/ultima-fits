@@ -1,5 +1,5 @@
 /* eslint-disable */
-import { KeystoneContext } from '@keystone-next/types';
+import { KeystoneContext } from '@keystone-6/types';
 import { errorMonitor } from 'nodemailer/lib/xoauth2';
 import {
   CartItemCreateInput,

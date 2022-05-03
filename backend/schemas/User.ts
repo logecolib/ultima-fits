@@ -1,5 +1,5 @@
-import { list } from '@keystone-next/keystone/schema';
-import { text, password, relationship } from '@keystone-next/fields';
+import { list } from '@keystone-6/keystone/schema';
+import { text, password, relationship } from '@keystone-6/fields';
 import { CartItem } from './CartItem';
 import { Role } from './Role';
 import { isSignedIn, permissions, rules } from '../access';

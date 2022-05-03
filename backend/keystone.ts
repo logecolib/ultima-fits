@@ -1,9 +1,9 @@
-import { config, createSchema } from '@keystone-next/keystone/schema';
-import { createAuth } from '@keystone-next/auth';
+import { config, createSchema } from '@keystone-6/keystone/schema';
+import { createAuth } from '@keystone-6/auth';
 import {
   withItemData,
   statelessSessions,
-} from '@keystone-next/keystone/session';
+} from '@keystone-6/keystone/session';
 import { User } from './schemas/User';
 import { Product } from './schemas/Product';
 import { CartItem } from './schemas/CartItem';

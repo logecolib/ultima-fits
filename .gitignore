@@ -3,6 +3,7 @@ backend/node_modules
 backend/vendor
 backend/local
 backend/.keystone/cache
+backend/.keystone/admin/.next/cache
 backend/.next/cache
 backend/*.env
 backend/.env

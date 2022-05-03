@@ -4,8 +4,8 @@ import {
   select,
   text,
   virtual,
-} from '@keystone-next/fields';
-import { list } from '@keystone-next/keystone/schema';
+} from '@keystone-6/fields';
+import { list } from '@keystone-6/keystone/schema';
 import { isSignedIn, rules } from '../access';
 import formatMoney from '../lib/formatMoney';
 

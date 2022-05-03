@@ -1,19 +1,19 @@
 import React from 'react';
 
-import { KeystoneProvider } from '@keystone-next/admin-ui/context';
-import { ErrorBoundary } from '@keystone-next/admin-ui/components';
+import { KeystoneProvider } from '@keystone-6/admin-ui/context';
+import { ErrorBoundary } from '@keystone-6/admin-ui/components';
 import { Core } from '@keystone-ui/core';
 
-import * as view008a3098 from '../../../node_modules/@keystone-next/fields/types/mongoId/views';
-import * as vieweb38e551 from '../../../node_modules/@keystone-next/fields/types/text/views';
-import * as view9b3d245e from '../../../node_modules/@keystone-next/fields/types/password/views';
-import * as view4af49ebf from '../../../node_modules/@keystone-next/fields/types/relationship/views';
-import * as view0d312a6d from '../../../node_modules/@keystone-next/fields/types/timestamp/views';
-import * as view54430981 from '../../../node_modules/@keystone-next/fields/types/select/views';
-import * as view4513b1e4 from '../../../node_modules/@keystone-next/fields/types/integer/views';
-import * as viewf7bba708 from '../../../node_modules/@keystone-next/cloudinary/views';
-import * as view7ca28c40 from '../../../node_modules/@keystone-next/fields/types/virtual/views';
-import * as view541b6ad7 from '../../../node_modules/@keystone-next/fields/types/checkbox/views';
+import * as view008a3098 from '../../../node_modules/@keystone-6/fields/types/mongoId/views';
+import * as vieweb38e551 from '../../../node_modules/@keystone-6/fields/types/text/views';
+import * as view9b3d245e from '../../../node_modules/@keystone-6/fields/types/password/views';
+import * as view4af49ebf from '../../../node_modules/@keystone-6/fields/types/relationship/views';
+import * as view0d312a6d from '../../../node_modules/@keystone-6/fields/types/timestamp/views';
+import * as view54430981 from '../../../node_modules/@keystone-6/fields/types/select/views';
+import * as view4513b1e4 from '../../../node_modules/@keystone-6/fields/types/integer/views';
+import * as viewf7bba708 from '../../../node_modules/@keystone-6/cloudinary/views';
+import * as view7ca28c40 from '../../../node_modules/@keystone-6/fields/types/virtual/views';
+import * as view541b6ad7 from '../../../node_modules/@keystone-6/fields/types/checkbox/views';
 
 const adminConfig = {};
 

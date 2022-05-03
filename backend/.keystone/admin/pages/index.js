@@ -1,7 +1,7 @@
 import React from 'react';
 
-import { HomePage } from '@keystone-next/admin-ui/pages/HomePage';
-import { gql } from '@keystone-next/admin-ui/apollo';
+import { HomePage } from '@keystone-6/admin-ui/pages/HomePage';
+import { gql } from '@keystone-6/admin-ui/apollo';
 
 export default function Home() {
   return (

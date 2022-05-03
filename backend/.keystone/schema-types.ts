@@ -4,7 +4,7 @@ type Scalars = {
   readonly String: string;
   readonly Int: number;
   readonly Float: number;
-  readonly JSON: import('@keystone-next/types').JSONValue;
+  readonly JSON: import('@keystone-6/types').JSONValue;
 };
 
 export type CartItemRelateToManyInput = {
@@ -912,11 +912,11 @@ export type UserListTypeInfo = {
 };
 
 export type UserListFn = (
-  listConfig: import('@keystone-next/keystone/schema').ListConfig<
+  listConfig: import('@keystone-6/keystone/schema').ListConfig<
     UserListTypeInfo,
     UserListTypeInfo['fields']
   >
-) => import('@keystone-next/keystone/schema').ListConfig<
+) => import('@keystone-6/keystone/schema').ListConfig<
   UserListTypeInfo,
   UserListTypeInfo['fields']
 >;
@@ -949,11 +949,11 @@ export type ProductListTypeInfo = {
 };
 
 export type ProductListFn = (
-  listConfig: import('@keystone-next/keystone/schema').ListConfig<
+  listConfig: import('@keystone-6/keystone/schema').ListConfig<
     ProductListTypeInfo,
     ProductListTypeInfo['fields']
   >
-) => import('@keystone-next/keystone/schema').ListConfig<
+) => import('@keystone-6/keystone/schema').ListConfig<
   ProductListTypeInfo,
   ProductListTypeInfo['fields']
 >;
@@ -983,11 +983,11 @@ export type ProductImageListTypeInfo = {
 };
 
 export type ProductImageListFn = (
-  listConfig: import('@keystone-next/keystone/schema').ListConfig<
+  listConfig: import('@keystone-6/keystone/schema').ListConfig<
     ProductImageListTypeInfo,
     ProductImageListTypeInfo['fields']
   >
-) => import('@keystone-next/keystone/schema').ListConfig<
+) => import('@keystone-6/keystone/schema').ListConfig<
   ProductImageListTypeInfo,
   ProductImageListTypeInfo['fields']
 >;
@@ -1017,11 +1017,11 @@ export type CartItemListTypeInfo = {
 };
 
 export type CartItemListFn = (
-  listConfig: import('@keystone-next/keystone/schema').ListConfig<
+  listConfig: import('@keystone-6/keystone/schema').ListConfig<
     CartItemListTypeInfo,
     CartItemListTypeInfo['fields']
   >
-) => import('@keystone-next/keystone/schema').ListConfig<
+) => import('@keystone-6/keystone/schema').ListConfig<
   CartItemListTypeInfo,
   CartItemListTypeInfo['fields']
 >;
@@ -1061,11 +1061,11 @@ export type OrderItemListTypeInfo = {
 };
 
 export type OrderItemListFn = (
-  listConfig: import('@keystone-next/keystone/schema').ListConfig<
+  listConfig: import('@keystone-6/keystone/schema').ListConfig<
     OrderItemListTypeInfo,
     OrderItemListTypeInfo['fields']
   >
-) => import('@keystone-next/keystone/schema').ListConfig<
+) => import('@keystone-6/keystone/schema').ListConfig<
   OrderItemListTypeInfo,
   OrderItemListTypeInfo['fields']
 >;
@@ -1096,11 +1096,11 @@ export type OrderListTypeInfo = {
 };
 
 export type OrderListFn = (
-  listConfig: import('@keystone-next/keystone/schema').ListConfig<
+  listConfig: import('@keystone-6/keystone/schema').ListConfig<
     OrderListTypeInfo,
     OrderListTypeInfo['fields']
   >
-) => import('@keystone-next/keystone/schema').ListConfig<
+) => import('@keystone-6/keystone/schema').ListConfig<
   OrderListTypeInfo,
   OrderListTypeInfo['fields']
 >;
@@ -1144,11 +1144,11 @@ export type RoleListTypeInfo = {
 };
 
 export type RoleListFn = (
-  listConfig: import('@keystone-next/keystone/schema').ListConfig<
+  listConfig: import('@keystone-6/keystone/schema').ListConfig<
     RoleListTypeInfo,
     RoleListTypeInfo['fields']
   >
-) => import('@keystone-next/keystone/schema').ListConfig<
+) => import('@keystone-6/keystone/schema').ListConfig<
   RoleListTypeInfo,
   RoleListTypeInfo['fields']
 >;
